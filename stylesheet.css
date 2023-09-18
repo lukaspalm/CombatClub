@@ -9,7 +9,9 @@ html {
 	font-family: 'Poppins', sans-serif;
 }
 
-
+a:hover{
+	font-size: 110%;
+}
 
 .typing{
 	color: #cccccc;
@@ -128,3 +130,14 @@ html {
 	height: 70vh;
 	box-shadow: 10px 10px 10px #666;
 }
+
+.section-4{
+	width: 100%;
+	height: 100vh;
+	background: #222222;
+	color: #ffffff;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+} 
+
