@@ -5,11 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Helsingborg Combat Club</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
 	<link rel="icon" href="cc_logo.png" type="image/x-icon"/>
+	<!--<script src="https://smtpjs.com/v3/smtp.js"></script>-->
+	<script src="script.js" defer></script>
 </head>
 <body>
 	<div class="menu">
-		<h4 class="categories">
+		<button class="burger-button">&#9776;</button> <!-- &#9776; is the Unicode character for the hamburger icon -->
+    	<div class="menu-links">
 			<a href="#hem" class="nav-link">
 				<em>
 					&nbsp; Hem &nbsp;   
@@ -30,23 +34,27 @@
 					&nbsp; Priser &nbsp;
 				</em>
 			</a>
-			<a href="#socials" class="nav-link">
+			<a href="#bilder" class="nav-link">
 				<em>
-					&nbsp; Sociala Medier &nbsp;
+					&nbsp; Bilder &nbsp;
 				</em>
 			</a>
-		</h4>
+			<a href="#socials" class="nav-link">
+				<em>
+					&nbsp; Sociala medier &nbsp;
+				</em>
+			</a>
+		</div>
 	</div>
 	<section id="hem" class="wrapper">
 		<div>
-			<!--<h1>Bli <span class="auto-type" class="typing"></span></h1>-->
 			<img src="cc_logo.png" class="wrapper-logo">
 			<h1 class="wrapper-h1">HELSINGBORG<br>COMBAT CLUB</h1>
 			<h2 class="wrapper-h2"><br>BJJ&nbsp;SW&nbsp;MMA</h2>
 		</div>
 
 	</section>
-	<section id="testa-pa" class="section-2">
+	<!--<section id="testa-pa" class="section-2">
 		<div class="s2-left">
 			<h1 class="s2-h1">
 				TESTA PÅ 
@@ -66,7 +74,7 @@
 			</h1>
 			<img src="traningsschema.png" class="s3-img">
 		</div>
-	</section>
+	</section>-->
 	<section id="prislista" class="section-4">
 		<div class="s4-div">
 			<h1 class="s4-h1">
@@ -77,12 +85,54 @@
 			<img src="cc_pris_svart.jpg" class="s4-img">
 		</div>
 	</section>
+	<section id="bilder">
+		<div class="section-5">
+			<div class="s5-img1-div" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+				<img src="picture1.jpg" class="s5-img1" >
+				<a href="https://www.instagram.com/p/CwtJAi8IoMY/" target="_blank">
+					<button class="s5-button" id="btn1">
+						SE INLÄGG 
+						<img src="white_arrow_nobg.png" class="s5-button-img">
+					</button>
+				</a>
+			</div>
+			<div class="s5-img2-div" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">	
+				<img src="picture2.jpg" class="s5-img2">
+				<a href="https://www.instagram.com/p/CuuvkBarjFI/" target="_blank">
+					<button class="s5-button">
+						SE INLÄGG 
+						<img src="white_arrow_nobg.png" class="s5-button-img">
+					</button>
+				</a>
+			</div>
+			<div class="s5-img3-div" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+				<img src="picture3.jpg" class="s5-img3">
+				<a href="https://www.instagram.com/p/CuVAVtHrLiI/" target="_blank">
+					<button class="s5-button">
+						SE INLÄGG 
+						<img src="white_arrow_nobg.png" class="s5-button-img">
+					</button>
+				</a>
+			</div>
+			<div class="s5-img4-div" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">
+				<img src="picture4.jpg" class="s5-img4">
+				<a href="https://www.instagram.com/p/CtUJp45NNKF/" target="_blank">
+					<button class="s5-button">
+						SE INLÄGG 
+						<img src="white_arrow_nobg.png" class="s5-button-img">
+					</button>
+				</a>
+			</div>
+		</div>
+	</section>
 	<hr>
 	<section id="socials" class="contact">
 		<div>
-			<div>
-				
-			</div>
+			<a href="https://www.instagram.com/hbgcombatclub" target="_blank"><img src="instagram_nobg.png" class="logo"></a>
+			&nbsp;
+			<a href="https://www.facebook.com/hbgcombatclub" target="_blank"><img src="facebook_nobg.png" class="logo"></a>
+			&nbsp;
+			<a href="https://www.google.com/maps/place/Combat+Club/@56.0257099,12.7146011,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x4a8e5593e0b4d4b9!8m2!3d56.0257099!4d12.7167898" target="_blank"><img src="googlemaps_nobg.png" class="logo"></a>
 		</div>
 	</section>
 </body>
